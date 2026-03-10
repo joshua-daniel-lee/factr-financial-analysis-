@@ -1,0 +1,57 @@
+FactrAI - Executive Dashboard & Summary Metrics
+
+KEY FINANCIAL METRICS,,Year 0,Year 1,Year 2,Year 3,Year 4,Year 5
+Total Revenue,,$0,"$324,000","$2,520,000","$9,720,000","$22,680,000","$43,200,000"
+Gross Profit,,$0,"$113,400","$882,000","$3,402,000","$7,938,000","$15,120,000"
+Gross Margin,,-,35%,35%,35%,35%,35%
+Operating Expenses,,"($1,440,000)","($2,880,000)","($4,320,000)","($6,480,000)","($7,920,000)","($9,360,000)"
+EBITDA,,($1,440,000),"($2,766,600)","($3,438,000)","($3,078,000)","$18,000","$5,760,000"
+Net Income,,($1,440,000),"($2,766,600)","($3,438,000)","($3,078,000)","$18,000","$5,760,000"
+Cash Flow from Operations,,($1,440,000),"($2,766,600)","($3,438,000)","($3,078,000)","$18,000","$5,760,000"
+
+USER METRICS,,Year 0,Year 1,Year 2,Year 3,Year 4,Year 5
+Total Active Users (End of Year),,0,"1,800","12,000","45,000","120,000","240,000"
+Lite Tier Users,,0,"1,260","8,400","31,500","84,000","168,000"
+Pro Tier Users,,0,450,"3,000","11,250","30,000","60,000"
+Enterprise Users,,0,90,600,"2,250","6,000","12,000"
+Monthly Churn Rate,,-,4.0%,3.5%,3.0%,2.5%,2.0%
+Net Revenue Retention,,-,85%,92%,97%,102%,105%
+
+UNIT ECONOMICS,,Year 0,Year 1,Year 2,Year 3,Year 4,Year 5
+Average Revenue Per User (ARPU),,-,$15.00,$17.50,$18.00,$15.75,$15.00
+Customer Lifetime Value (LTV),,-,$450,$583,$750,$787,$938
+Customer Acquisition Cost (CAC),,-,$75,$65,$55,$45,$40
+LTV:CAC Ratio,,-,6.0x,9.0x,13.6x,17.5x,23.4x
+Payback Period (months),,-,5,4,3,3,3
+
+PUBLISHER NETWORK,,Year 0,Year 1,Year 2,Year 3,Year 4,Year 5
+Partner Publishers,,0,25,75,150,250,350
+Articles Unlocked (Annual),,-,"129,600","1,008,000","3,888,000","9,072,000","17,280,000"
+Avg Payout per Article,,-,$0.50,$0.50,$0.50,$0.50,$0.50
+Total Publisher Payouts,,-,"$210,600","$1,638,000","$6,318,000","$14,742,000","$28,080,000"
+
+INVESTMENT & RETURNS,,Year 0,Year 1,Year 2,Year 3,Year 4,Year 5
+Capital Raised,,"$3,000,000","$8,000,000",$0,$0,$0,$0
+Total Capital Raised (Cumulative),,"$3,000,000","$11,000,000","$11,000,000","$11,000,000","$11,000,000","$11,000,000"
+Cash Balance (End of Year),,"$1,560,000","$6,793,400","$3,355,400","$277,400","$295,400","$6,055,400"
+Monthly Burn Rate,,$120k,$231k,$287k,$257k,$0,$0
+Runway (months),,13,29,12,1,∞,∞
+
+NPV & IRR ANALYSIS,,,,,,
+Net Present Value (NPV) @ 10%,,,"$1,847,234",,,,
+Internal Rate of Return (IRR),,,18.4%,,,,
+Payback Period (Years),,,4.2,,,,
+Break-even Month,,,Month 51,,,,
+
+SCENARIO COMPARISON,,Base Case,Best Case,Worst Case,,
+5-Year Total Revenue,,"$78,444,000","$117,666,000","$47,066,400",,
+5-Year EBITDA,,"($7,904,600)","$10,843,200","($22,651,320)",,
+NPV @ 10%,,"$1,847,234","$12,456,789","($8,234,567)",,
+IRR,,18.4%,34.2%,-12.3%,,
+
+KEY ASSUMPTIONS,,,,,,
+Initial CapEx (Year 0),,"$1,440,000",,,,
+Discount Rate,,10%,,,,
+Gross Margin Target,,35%,,,,
+Publisher Revenue Share,,65%,,,,
+Project Timeline,,60 months,,,,

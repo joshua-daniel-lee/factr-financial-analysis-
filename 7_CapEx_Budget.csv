@@ -1,0 +1,90 @@
+FactrAI - Capital Expenditure Budget (Year 0)
+
+CAPITAL EXPENDITURE SUMMARY - YEAR 0,,,,,
+Category,Amount,% of Total,Payment Timeline,Vendor Type,Notes
+Platform Development,"$800,000",55.6%,Months 1-8,Internal + Contractors,Core marketplace technology
+Browser Extension/Mobile App,"$250,000",17.4%,Months 3-9,Development Agency,Cross-platform client apps
+ML/AI Yield Engine,"$200,000",13.9%,Months 4-10,AI/ML Specialists,Dynamic pricing algorithm
+Authentication Infrastructure,"$120,000",8.3%,Months 2-6,Security Specialists,"FedCM, OAuth, JWT implementation"
+API Gateway & Integration,"$70,000",4.9%,Months 5-8,Integration Specialists,Publisher SDK and APIs
+TOTAL CAPEX,"$1,440,000",100.0%,,,"One-time investment in Year 0"
+
+DETAILED CAPEX BREAKDOWN,,,,,
+Item,Category,Cost,Timing,Depreciation Schedule,Useful Life
+Core Backend Architecture,Platform Development,"$200,000",Months 1-4,Straight-line,5 years
+Frontend Web Application,Platform Development,"$150,000",Months 2-5,Straight-line,5 years
+Database Architecture,Platform Development,"$100,000",Months 1-3,Straight-line,5 years
+Payment Processing Integration,Platform Development,"$80,000",Months 3-5,Straight-line,5 years
+User Dashboard & Analytics,Platform Development,"$120,000",Months 4-6,Straight-line,5 years
+Admin Portal,Platform Development,"$80,000",Months 5-7,Straight-line,5 years
+Testing & QA Infrastructure,Platform Development,"$70,000",Months 6-8,Straight-line,5 years
+Chrome Extension,Browser Extension/Mobile App,"$80,000",Months 3-6,Straight-line,3 years
+Safari Extension,Browser Extension/Mobile App,"$60,000",Months 4-7,Straight-line,3 years
+Firefox Extension,Browser Extension/Mobile App,"$50,000",Months 5-8,Straight-line,3 years
+iOS App (MVP),Browser Extension/Mobile App,"$30,000",Months 6-9,Straight-line,3 years
+Android App (MVP),Browser Extension/Mobile App,"$30,000",Months 6-9,Straight-line,3 years
+AI Training Data Collection,ML/AI Yield Engine,"$40,000",Months 4-6,Immediate expense,N/A
+Predictive Model Development,ML/AI Yield Engine,"$80,000",Months 5-8,Straight-line,3 years
+Dynamic Pricing Algorithm,ML/AI Yield Engine,"$50,000",Months 7-9,Straight-line,3 years
+SmartReader Implementation,ML/AI Yield Engine,"$30,000",Months 8-10,Straight-line,3 years
+FedCM Integration,Authentication Infrastructure,"$40,000",Months 2-4,Straight-line,5 years
+OAuth 2.0 Implementation,Authentication Infrastructure,"$30,000",Months 3-5,Straight-line,5 years
+JWT Token System,Authentication Infrastructure,"$25,000",Months 3-5,Straight-line,5 years
+Identity Provider Setup,Authentication Infrastructure,"$25,000",Months 4-6,Straight-line,5 years
+Publisher SDK Development,API Gateway & Integration,"$35,000",Months 5-7,Straight-line,4 years
+API Gateway Setup,API Gateway & Integration,"$20,000",Months 5-7,Straight-line,5 years
+Webhook Infrastructure,API Gateway & Integration,"$15,000",Months 6-8,Straight-line,5 years
+
+MONTHLY CAPEX SPEND (YEAR 0),,,,,
+Month,Platform Dev,Browser/Mobile,ML/AI,Auth Infra,API Gateway,Monthly Total
+0 (Pre-launch),$0,$0,$0,$0,$0,$0
+1,"$100,000",$0,$0,$0,$0,"$100,000"
+2,"$120,000",$0,$0,"$20,000",$0,"$140,000"
+3,"$150,000","$30,000",$0,"$30,000",$0,"$210,000"
+4,"$130,000","$40,000","$40,000","$30,000",$0,"$240,000"
+5,"$100,000","$50,000","$40,000","$25,000","$20,000","$235,000"
+6,"$80,000","$50,000","$40,000","$15,000","$25,000","$210,000"
+7,"$70,000","$40,000","$50,000",$0,"$15,000","$175,000"
+8,"$50,000","$30,000","$20,000",$0,"$10,000","$110,000"
+9,$0,"$10,000","$10,000",$0,$0,"$20,000"
+10,$0,$0,$0,$0,$0,$0
+11,$0,$0,$0,$0,$0,$0
+12,$0,$0,$0,$0,$0,$0
+TOTAL,"$800,000","$250,000","$200,000","$120,000","$70,000","$1,440,000"
+
+DEPRECIATION SCHEDULE,,,,,
+Year,Platform Dev Depreciation,Browser/Mobile Depreciation,ML/AI Depreciation,Auth Infra Depreciation,API Gateway Depreciation,Total Annual Depreciation
+1,"$160,000","$83,333","$53,333","$24,000","$14,000","$334,667"
+2,"$160,000","$83,333","$53,333","$24,000","$14,000","$334,667"
+3,"$160,000","$83,333","$53,333","$24,000","$14,000","$334,667"
+4,"$160,000",$0,$0,"$24,000","$14,000","$198,000"
+5,"$160,000",$0,$0,"$24,000","$14,000","$198,000"
+
+CAPEX FUNDING SOURCE,,,,,
+Source,Amount,% of Total,Terms,Notes,
+Seed Round (Equity),"$1,440,000",100%,20% dilution,Covers entire Year 0 CapEx,
+Remaining Seed for Operations,"$1,560,000",-,-,Working capital for Year 0-1,
+Total Seed Raise,"$3,000,000",-,-,Closes Month 0,
+
+CAPEX VS INDUSTRY BENCHMARKS,,,,,
+Metric,FactrAI,SaaS Average,Marketplace Average,Assessment,
+CapEx as % of Seed Round,48%,30-40%,40-50%,In line with marketplace model,
+Platform Dev as % of CapEx,55.6%,50-60%,60-70%,Appropriate,
+Time to Launch (months),9,12-18,12-15,Aggressive but achievable,
+CapEx/Employee (10 FTE Year 0),"$144,000","$100,000-$150,000","$120,000-$180,000",Within normal range,
+
+RISK MITIGATION,,,,,
+Risk,Probability,Impact,Mitigation Strategy,Contingency Budget,
+Development Delays,Medium,High,"Agile methodology, phased releases","$100,000 reserve"
+Integration Complexity,Medium,Medium,"Early publisher pilots, MVP approach","$50,000 reserve"
+Technology Changes,Low,Medium,"Modular architecture, API-first","$30,000 reserve"
+Talent Acquisition,Medium,High,"Contractor flexibility, vendor relationships","$70,000 reserve"
+Scope Creep,High,High,"Strict MVP definition, change control","Included in totals"
+
+POST-CAPEX MAINTENANCE,,,,,
+Category,Annual Maintenance Cost,% of Original CapEx,Notes,
+Platform Maintenance,"$80,000",10%,"Bug fixes, minor updates"
+Infrastructure Upgrades,"$60,000",4.2%,"Technology refresh cycles"
+Security Patches,"$40,000",2.8%,Ongoing security maintenance
+Feature Enhancements,"$120,000",8.3%,"New capabilities, not in OpEx"
+TOTAL ANNUAL MAINTENANCE,"$300,000",20.8%,"Included in OpEx Years 1-5"

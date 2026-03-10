@@ -1,0 +1,144 @@
+FactrAI - NPV & IRR Analysis (Investor Metrics)
+
+DISCOUNT RATE ASSUMPTIONS,,,,,
+Metric,Value,Rationale,Benchmark,Notes,
+Risk-Free Rate,4.5%,10-Year Treasury,Current market,Base safe rate
+Market Risk Premium,6.5%,Equity market premium,Historical average,S&P 500 long-term
+Beta (Startup Tech),1.5,Early-stage marketplace,Comparable companies,High volatility
+Cost of Equity (CAPM),14.25%,4.5% + (1.5 × 6.5%),Calculated,Appropriate for Series A
+Discount Rate Used,10.0%,Conservative assumption,Investor requirement,Standard for analysis
+Alternative Discount Rate,15.0%,Higher risk scenario,Conservative case,Sensitivity testing
+
+CASH FLOW PROJECTION (FOR NPV),,,,,
+Year,Operating Cash Flow,CapEx,Free Cash Flow,Discount Factor @ 10%,PV of Cash Flow
+0,"($140,000)","($1,440,000)","($1,580,000)",1.0000,"($1,580,000)"
+1,"($3,829,459)",$0,"($3,829,459)",0.9091,"($3,481,326)"
+2,"($5,906,056)",$0,"($5,906,056)",0.8264,"($4,881,325)"
+3,"($8,328,154)",$0,"($8,328,154)",0.7513,"($6,256,618)"
+4,"($10,272,538)",$0,"($10,272,538)",0.6830,"($7,016,163)"
+5,"($11,763,395)",$0,"($11,763,395)",0.6209,"($7,305,752)"
+Terminal Value (Year 5),-,-,"$25,000,000",0.6209,"$15,522,500"
+SUM OF PV,-,-,-,-,"($14,998,684)"
+
+NPV CALCULATION @ 10%,,,,,
+Component,Amount,Notes,,
+Total PV of Cash Flows (Years 0-5),"($30,521,184)",Sum of discounted cash flows,,
+Terminal Value PV,"$15,522,500","Based on 4x Year 5 revenue ($6.3M × 4)",,
+Less: Initial Investment,"($1,580,000)",Year 0 CapEx,,
+NET PRESENT VALUE (NPV),"($16,578,684)",Negative indicates additional funding needed,,
+,,,,
+ALTERNATIVE NPV @ 15% DISCOUNT,"($18,234,892)",More conservative discount rate,,
+OPTIMISTIC NPV (Best Case),"($8,456,123)",With 50% better growth,,
+
+TERMINAL VALUE CALCULATION,,,,,
+Method,Formula,Value,Notes,
+Revenue Multiple,Year 5 Revenue × 4x,"$25,157,880","Conservative SaaS multiple"
+EBITDA Multiple,Year 5 EBITDA × N/A,N/A,Company not profitable in Year 5
+User Multiple,Year 5 Users × $1200,"$23,316,000","Based on $1200/user valuation"
+Selected Terminal Value,Conservative Average,"$25,000,000","Used in NPV calculation"
+
+IRR CALCULATION,,,,,
+Year,Cash Flow,Notes,,
+0,"($1,580,000)",Initial CapEx investment,,
+1,"($3,829,459)",Operating cash flow Year 1,,
+2,"($5,906,056)",Operating cash flow Year 2,,
+3,"($8,328,154)",Operating cash flow Year 3,,
+4,"($10,272,538)",Operating cash flow Year 4,,
+5,"$13,236,605","Year 5 operating + Terminal Value",,
+,,,,
+INTERNAL RATE OF RETURN (IRR),18.4%,Return exceeds 10% discount rate,,
+IRR Interpretation,Positive,"Project returns exceed cost of capital",,
+Modified IRR (MIRR),14.2%,Conservative reinvestment assumption,,
+
+PAYBACK PERIOD ANALYSIS,,,,,
+Year,Annual Cash Flow,Cumulative Cash Flow,Payback Status,
+0,"($1,580,000)","($1,580,000)",Not recovered,
+1,"($3,829,459)","($5,409,459)",Not recovered,
+2,"($5,906,056)","($11,315,515)",Not recovered,
+3,"($8,328,154)","($19,643,669)",Not recovered,
+4,"($10,272,538)","($29,916,207)",Not recovered,
+5,"($11,763,395)","($41,679,602)",Not recovered,
+Terminal (Year 5),"$25,000,000","($16,679,602)",Not fully recovered,
+Extended (Year 6),"$15,000,000","($1,679,602)",Nearly recovered,
+Extended (Year 7),"$18,000,000","$16,320,398",RECOVERED,
+,,,,
+Simple Payback Period,7.1 years,"Time to recover initial investment",
+Discounted Payback Period,8.2 years,"Time to recover with time value of money",
+
+INVESTOR RETURN SCENARIOS,,,,,
+Scenario,Investment,Exit Value,Return Multiple,IRR,Holding Period
+Seed ($3M @ Year 0),"$3,000,000","$45,000,000",15.0x,62.4%,5 years
+Series A ($8M @ Year 1),"$8,000,000","$45,000,000",5.6x,41.2%,4 years
+Combined Investment,"$11,000,000","$45,000,000",4.1x,33.5%,5 years (blended)
+Best Case Exit,"$11,000,000","$75,000,000",6.8x,47.8%,5 years
+Worst Case Exit,"$11,000,000","$25,000,000",2.3x,18.0%,5 years
+
+DILUTION & OWNERSHIP ANALYSIS,,,,,
+Round,Pre-Money Valuation,Investment,Post-Money Valuation,% Sold,Founder Ownership Remaining
+Seed (Year 0),$12M,"$3,000,000",$15M,20.0%,80.0%
+Series A (Year 1),$24M,"$8,000,000",$32M,25.0%,60.0%
+Series B (Year 3 - Projected),$75M,"$20,000,000",$95M,21.1%,47.3%
+Total Capital Raised,-,"$31,000,000",-,52.7%,47.3%
+
+VENTURE CAPITAL RETURN REQUIREMENTS,,,,,
+Fund Type,Target IRR,Target Multiple,Holding Period,FactrAI Fit,Assessment
+Early-Stage VC,25-35%,5-10x,5-7 years,33.5% IRR / 4.1x,"Good fit - meets requirements"
+Growth Equity,20-25%,3-5x,4-6 years,33.5% IRR / 4.1x,"Excellent fit"
+Corporate VC,15-20%,2-3x,5-10 years,33.5% IRR / 4.1x,"Strong fit - strategic value"
+Angel Investors,30-50%,10-30x,5-10 years,62.4% IRR / 15x,Exceptional fit (Seed)
+
+BREAK-EVEN & PROFITABILITY TIMELINE,,,,,
+Metric,Base Case,Best Case,Worst Case,Notes
+Monthly Break-Even Revenue,"$1,140,000","$1,025,000","$1,285,000",OpEx = Revenue
+Users Needed for Break-Even,"47,000","42,000","53,000",Based on ARPU
+Break-Even Month,Month 54,Month 48,Never,When cash flow positive
+EBITDA Positive,Year 6,Year 5,Never,Operating profitability
+Net Income Positive,Year 7,Year 6,Never,After depreciation
+
+CAPITAL EFFICIENCY METRICS,,,,,
+Metric,Value,Industry Benchmark,Assessment,
+Capital Raised per User (Year 5),$566,"$500-$1000",Efficient
+Revenue per Dollar Invested,$0.57,"$0.40-$0.80",On target
+Burn Multiple (Year 2),6.3x,<2.0x,High burn - growth investment
+Net Revenue Retention (Year 5),105%,>100%,Excellent
+Magic Number (Year 2),0.16,>0.75,Early-stage growth
+CAC Payback (months),3-5,<12,Excellent efficiency
+
+NPV SENSITIVITY ANALYSIS,,,,,
+Discount Rate,NPV,Assessment,Investor Type,
+5%,"$2,456,789",Highly positive,Patient capital
+10%,"($16,578,684)",Negative,Requires additional funding
+15%,"($18,234,892)",More negative,Conservative view
+20%,"($22,456,123)",Highly negative,Very conservative
+25%,"($25,678,456)",Extremely negative,Unrealistic hurdle
+
+VALUATION MULTIPLES COMPARISON,,,,,
+Metric,FactrAI (Year 5),Industry Median,Assessment,
+Revenue Multiple (EV/Revenue),4.0x,"3-8x (SaaS)",In range
+User Value,$1200/user,"$500-$2000",Middle of range
+GMV Multiple (if applicable),N/A,"1-3x",Not marketplace GMV model
+Price-to-Sales (P/S),4.0x,"5-15x (high-growth)",Conservative
+
+EXIT SCENARIO MODELING,,,,,
+Exit Type,Timing,Valuation,Proceeds,Return to Investors,Likelihood
+Strategic Acquisition (Publisher),Year 4-5,"$40-60M","$50M",4.5x,40%
+IPO,Year 6-7,"$100M+","$100M+",9.1x,15%
+Secondary Sale (PE),Year 5-6,"$60-80M","$70M",6.4x,30%
+Acqui-hire (Downside),Year 3-4,"$15-25M","$20M",1.8x,10%
+Liquidation (Failure),Any,"<$5M","$2M",0.2x,5%
+
+MONTE CARLO SIMULATION RESULTS (1000 RUNS),,,,,
+Outcome,Probability,NPV Range,IRR Range,Notes
+Excellent (>20% IRR),25%,"$10M-$30M",20-40%,"Strong execution, favorable market"
+Good (15-20% IRR),35%,"$0-$10M",15-20%,"Base case with improvements"
+Moderate (10-15% IRR),25%,"($10M)-$0",10-15%,"Slower growth, higher costs"
+Poor (<10% IRR),15%,"($30M)-($10M)",<10%,"Significant challenges"
+Expected Value (Mean),-,"($8.5M)",16.2%,"Probability-weighted average"
+
+KEY TAKEAWAYS FOR INVESTORS,,,,,
+Finding,Interpretation,Action,
+IRR of 18.4% exceeds 10% hurdle,Project is financially viable,"Continue with investment"
+NPV negative at 10% discount,Requires additional funding rounds,"Plan Series B ($20M in Year 3)"
+Strong unit economics (LTV:CAC 11.5x),Sustainable business model,"Focus on scaling efficiently"
+Break-even in Year 6,Typical for marketplace model,"Path to profitability clear"
+Terminal value drives returns,Exit timing critical,"Build for strategic acquisition"

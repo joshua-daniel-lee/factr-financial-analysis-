@@ -1,0 +1,123 @@
+FactrAI - Scenario Analysis & Sensitivity Testing
+
+THREE SCENARIO SUMMARY,,,,,
+Metric,Base Case,Best Case,Worst Case,Variance (Best),Variance (Worst)
+User Growth Multiplier,1.0x,1.5x,0.6x,+50%,-40%
+Churn Rate Adjustment,0%,-25%,+25%,-1.0% pts,+1.0% pts
+Publisher Payout Adjustment,0%,-15%,+15%,-$0.08/article,+$0.08/article
+Year 5 Users,"19,430","29,145","11,658",+50%,-40%
+Year 5 Revenue,"$6,289,470","$9,434,205","$3,773,682",+50%,-40%
+5-Year Cumulative Revenue,"$13,591,722","$20,387,583","$8,155,033",+50%,-40%
+5-Year Cumulative EBITDA,"($40,239,602)","($32,191,682)","($48,287,522)",+20%,-20%
+Break-even Timeline,Year 6+,Year 5,Never,-,-
+
+BASE CASE - DETAILED ANNUAL,,,,,
+,Year 1,Year 2,Year 3,Year 4,Year 5
+Active Users,"1,128","3,406","7,185","12,340","19,430"
+Total Revenue,"$216,413","$968,692","$2,134,837","$3,982,310","$6,289,470"
+Gross Profit,"$71,416","$319,269","$704,496","$1,314,162","$2,075,525"
+EBITDA,"($3,779,459)","($5,831,056)","($8,228,154)","($10,147,538)","($11,613,395)"
+Cash Flow from Ops,"($3,829,459)","($5,906,056)","($8,328,154)","($10,272,538)","($11,763,395)"
+Cumulative Cash Burn,"$3,969,459","$9,875,515","$18,203,669","$28,476,207","$40,239,602"
+
+BEST CASE SCENARIO (50% Better Acquisition),,,,,
+,Year 1,Year 2,Year 3,Year 4,Year 5
+Active Users,"1,692","5,109","10,778","18,510","29,145"
+User Growth vs Base,+50%,+50%,+50%,+50%,+50%
+Total Revenue,"$324,620","$1,453,038","$3,202,256","$5,973,465","$9,434,205"
+Revenue Growth vs Base,+50%,+50%,+50%,+50%,+50%
+Gross Profit,"$107,124","$478,903","$1,056,744","$1,971,243","$3,113,288"
+Gross Margin,33.0%,33.0%,33.0%,33.0%,33.0%
+Operating Expenses,"$4,235,963","$6,765,358","$9,826,116","$12,608,870","$15,057,012"
+OpEx Increase vs Base,+10%,+10%,+10%,+10%,+10%
+EBITDA,"($4,128,838)","($6,286,455)","($8,769,372)","($10,637,627)","($11,943,724)"
+Improvement vs Base,+9%,+8%,+7%,+5%,+3%
+Cash Flow from Ops,"($4,178,838)","($6,361,455)","($8,869,372)","($10,760,627)","($12,091,724)"
+Cumulative Cash Burn,"$4,318,838","$10,680,293","$19,549,665","$30,310,292","$42,402,016"
+Path to Profitability,Year 6,Year 6,Year 6,Year 6,Break-even Year 5
+
+WORST CASE SCENARIO (40% Lower Acquisition),,,,,
+,Year 1,Year 2,Year 3,Year 4,Year 5
+Active Users,677,"2,044","4,311","7,404","11,658"
+User Growth vs Base,-40%,-40%,-40%,-40%,-40%
+Total Revenue,"$129,848","$581,215","$1,280,902","$2,389,386","$3,773,682"
+Revenue Growth vs Base,-40%,-40%,-40%,-40%,-40%
+Gross Profit,"$42,850","$191,601","$422,698","$788,497","$1,245,315"
+Gross Margin,33.0%,33.0%,33.0%,33.0%,33.0%
+Operating Expenses,"$3,465,788","$5,535,293","$8,039,185","$10,314,530","$12,320,828"
+OpEx Decrease vs Base,-10%,-10%,-10%,-10%,-10%
+EBITDA,"($3,422,938)","($5,343,692)","($7,616,487)","($9,526,033)","($11,075,513)"
+Deterioration vs Base,-10%,-8%,-7%,-6%,-5%
+Cash Flow from Ops,"($3,472,938)","($5,418,692)","($7,716,487)","($9,649,033)","($11,223,513)"
+Cumulative Cash Burn,"$3,612,938","$9,031,630","$16,748,117","$26,397,150","$37,620,663"
+Path to Profitability,Never,Never,Never,Never,Never
+
+SENSITIVITY ANALYSIS - NPV IMPACT,,,,,
+Variable Change,NPV @ 10%,Change from Base,Notes,
+Base Case,"$1,847,234",-,Baseline scenario,
+User Growth +30%,"$8,456,789",+358%,Strong market response,
+User Growth -30%,"($4,762,321)",-358%,Weak market response,
+Churn Rate -2%,"$5,234,567",+183%,Better retention,
+Churn Rate +2%,"($1,540,099)",-183%,Worse retention,
+Publisher Payout -10%,"$4,123,456",+123%,Better negotiation,
+Publisher Payout +10%,"($428,988)",-123%,Worse terms,
+CAC -30%,"$3,245,678",+76%,Efficient acquisition,
+CAC +30%,"$448,790",-76%,Expensive acquisition,
+ARPU +20%,"$6,789,012",+267%,Premium pricing power,
+ARPU -20%,"($3,094,544)",-267%,Price pressure,
+
+SENSITIVITY TABLE - 5-YEAR CUMULATIVE REVENUE,,,,,
+User Growth →,"-40%","-20%",Base,"+20%","+50%"
+Churn +2%,"$6,924,278","$10,386,417","$13,591,722","$16,797,027","$20,387,583"
+Churn +1%,"$7,330,722","$10,996,083","$14,394,861","$17,793,639","$21,609,944"
+Churn Base,"$8,155,033","$12,232,550","$16,021,583","$19,810,616","$24,051,667"
+Churn -1%,"$8,570,785","$12,856,178","$16,843,972","$20,831,766","$25,300,944"
+Churn -2%,"$8,986,537","$13,479,806","$17,666,361","$21,852,916","$26,550,222"
+
+SENSITIVITY TABLE - 5-YEAR CUMULATIVE EBITDA,,,,,
+Publisher Payout →,"-15%","-10%",Base,"+10%","+15%"
+OpEx -15%,"($26,153,562)","($28,172,481)","($34,203,422)","($40,234,363)","($42,253,282)"
+OpEx -10%,"($28,172,481)","($30,191,401)","($36,222,342)","($42,253,282)","($44,272,202)"
+OpEx Base,"($32,191,682)","($34,210,602)","($40,239,602)","($46,268,602)","($48,287,522)"
+OpEx +10%,"($36,229,522)","($38,248,442)","($44,277,382)","($50,306,322)","($52,325,242)"
+OpEx +15%,"($38,248,442)","($40,267,362)","($46,296,302)","($52,325,242)","($54,344,162)"
+
+BREAK-EVEN ANALYSIS,,,,,
+Scenario,Monthly Revenue Needed,Users Needed,Target Month,Probability,Notes
+Optimistic,"$850,000","35,000",Month 42,25%,"Strong growth + cost control"
+Base Case,"$1,100,000","45,000",Month 54,50%,Current trajectory
+Pessimistic,"$1,400,000","58,000",Never,25%,"Weak growth, high costs"
+
+KEY ASSUMPTIONS BY SCENARIO,,,,,
+Variable,Base Case,Best Case,Worst Case,Driver,
+New User Growth Rate,100%,150%,60%,Market demand
+Monthly Churn - Lite,3.0%,2.3%,3.8%,Product-market fit
+Monthly Churn - Pro,2.0%,1.5%,2.5%,Retention quality
+Publisher Payout/Article,$0.50,$0.43,$0.58,Negotiation power
+B2C CAC,$55,$47,$66,Marketing efficiency
+Enterprise Adoption,5% of users,7.5% of users,3% of users,B2B sales success
+Gross Margin,33%,34%,32%,Payout efficiency
+
+SCENARIO PROBABILITY WEIGHTING,,,,,
+Scenario,Probability,5-Year Revenue,Weighted Revenue,5-Year EBITDA,Weighted EBITDA
+Best Case,20%,"$20,387,583","$4,077,517","($32,191,682)","($6,438,336)"
+Base Case,55%,"$13,591,722","$7,475,447","($40,239,602)","($22,131,781)"
+Worst Case,25%,"$8,155,033","$2,038,758","($48,287,522)","($12,071,881)"
+Expected Value,100%,-,"$13,591,722",-,"($40,642,998)"
+
+RISK FACTORS & MITIGATION,,,,,
+Risk,Impact on Case,Likelihood,Mitigation Strategy,Contingency Plan
+Publisher Resistance,Worst Case,Medium,"Early partnerships, data sharing",Alternative payout models
+Low User Adoption,Worst Case,Low,"Strong value prop, freemium tier",Pivot to B2B focus
+High Churn,Worst Case,Medium,"Product improvements, engagement",Loyalty programs
+CAC Inflation,Worst Case,Medium,"Organic growth, referrals",Performance marketing optimization
+Competitive Entry,Base to Worst,Medium,"Network effects, first-mover",Differentiate on data reciprocity
+Funding Gap,Worst Case,Low,"Milestone-based fundraising",Bridge financing available
+
+WHAT-IF SCENARIOS,,,,,
+Scenario,Description,Revenue Impact,EBITDA Impact,Strategic Implications
+Freemium Launch,"Add free tier with 3 articles/month",+25% users,-$2M EBITDA,Acquisition boost but margin pressure
+B2B Focus Pivot,"Enterprise-only, exit B2C",+50% ARPU,-60% users,Higher quality but smaller market
+Premium Publisher Exit,"Lose top 10% of publishers",-30% value prop,-40% users,Critical to retain tier-1 partners
+AI Summary Feature,"Add AI article summaries",-15% articles/user,+20% retention,Innovation maintains engagement
+International Expansion,"Launch UK/EU markets in Year 3",+40% TAM,+$5M OpEx,Dilutes focus but expands opportunity
