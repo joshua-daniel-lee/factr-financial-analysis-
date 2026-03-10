@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="logo.png" alt="FactrAI Logo" width="400"/>
+</div>
+
 # FactrAI - Executive Summary for Investors
 
 ## Investment Opportunity
