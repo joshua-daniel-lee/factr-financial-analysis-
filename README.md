@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="FactrAI Logo" width="400"/>
+  <img src="logo.png" alt="FactrAI Logo" width="200"/>
 </div>
 
 # FactrAI - Executive Summary for Investors
