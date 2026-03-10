@@ -1,4 +1,4 @@
-<img src="logo.png" alt="FactrAI Logo" width="200"/>
+<img src="logo.png" alt="FactrAI Logo" width="175"/>
 
 # FactrAI - Executive Summary for Investors
 
