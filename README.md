@@ -1,8 +1,4 @@
-<div align="center">
-  <img src="logo.png" alt="FactrAI Logo" width="200"/>
-</div>
-
-# FactrAI - Executive Summary for Investors
+# <img src="logo.png" alt="FactrAI Logo" width="50" style="vertical-align: middle;"/> FactrAI - Executive Summary for Investors
 
 ## Investment Opportunity
 
@@ -25,9 +21,9 @@
 | **Exit Multiple** | 4.1x (base case) | 15x for Seed investors |
 | **Break-Even** | Year 6 | Clear path to profitability |
 
-**Capital Requirements:** $11M total (Seed $3M + Series A $8M deployed)  
-**Use of Funds:** Platform build, user acquisition, publisher partnerships, team scaling  
-**Current Dilution:** 40% (Seed 20% + Series A 25%)
+**Capital Requirements:** $11M total over 5 years (Seed $3M + Series A $8M projected)  
+**Current Raise:** Seed round of $3M - Platform build, early pilot expansion, first publisher partnerships  
+**Projected Dilution:** 20% (Seed round)
 
 ---
 
@@ -128,9 +124,9 @@ This enterprise value justifies premium pricing and drives B2B sales motion.
 - **Total capital requirement:** $31M over 5 years
 
 **Funding Strategy:**
-- ✅ Seed ($3M @ Year 0): Platform build + 12-month runway
-- ✅ Series A ($8M @ Year 1): Scale user acquisition + publisher network
-- 🔜 Series B ($20M @ Year 3): Fund path to profitability + market expansion
+- 🎯 **Seed ($3M @ Year 0) - RAISING NOW:** Platform build, early pilot scale, 12-month runway
+- 📍 Series A ($8M @ Year 1): Scale user acquisition + publisher network
+- � Series B ($20M @ Year 3): Fund path to profitability + market expansion
 
 ### 7. Scenario Analysis & Risk Management (Tab 11)
 **Three Scenarios Modeled:**
@@ -187,16 +183,14 @@ This enterprise value justifies premium pricing and drives B2B sales motion.
 
 ## The Ask
 
-**Current Round:** Series A ($8M) - **FUNDED**  
-**Next Round:** Series B ($20M target for Year 3)
+**Current Round:** Seed ($3M) - **RAISING NOW**  
+**Next Round:** Series A ($8M target for Year 1)
 
-**Series B Use of Funds:**
-- 40% User acquisition (scaling to 120K users)
-- 30% Publisher partnerships (grow to 250 partners)
-- 20% Product development (international, mobile optimization)
-- 10% Working capital & reserves
-
-**Post-Series B Ownership:** Founders retain 47.3%, investors hold 52.7%
+**Seed Use of Funds:**
+- 55% Platform development (core marketplace infrastructure)
+- 17% Browser/mobile app development
+- 14% ML/AI yield engine
+- 14% Early pilot expansion & first publisher partnerships
 
 ---
 
@@ -204,8 +198,8 @@ This enterprise value justifies premium pricing and drives B2B sales motion.
 
 1. **Review Full Model:** 12 detailed tabs with 60-month granularity ([see README_Financial_Model.md](./README_Financial_Model.md))
 2. **Due Diligence:** Access to publisher LOIs, beta user cohort data, technology demos
-3. **Term Sheet Discussion:** Standard Series B terms with pro-rata rights
-4. **Board Seat:** Lead investor receives board seat and observer rights
+3. **Term Sheet Discussion:** Standard Seed terms with pro-rata rights
+4. **Board Seat:** Lead investor receives board observer rights
 
 ---
 
@@ -235,7 +229,7 @@ FactrAI presents a **capital-efficient opportunity** to build a marketplace with
 
 The base case demonstrates achievable metrics. The best case (20% probability) delivers 6.8x returns with Year 5 profitability. Even the downside scenarios preserve capital through strategic acquisition opportunities.
 
-**Now is the optimal entry point:** Product validated, initial publisher partnerships secured, Series A deployment begins scaling the network. Series B investors benefit from de-risked model while capturing majority of value creation.
+**Now is the optimal entry point for Seed investors:** Ground-floor opportunity with 15x return potential and 62.4% IRR. Early-stage entry before product launch captures maximum value creation as the marketplace scales from pilot to 19,430+ users over 5 years.
 
 ---
 
